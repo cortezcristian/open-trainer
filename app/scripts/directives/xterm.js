@@ -15,8 +15,8 @@ angular.module('openTrainerApp')
       restrict: 'A',
       link: function postLink(scope, element, attrs) {
           term = new Terminal({
-              cols: 90,
-              rows: 30,
+              cols: 80,
+              rows: 20,
               screenKeys: true
           });
 
