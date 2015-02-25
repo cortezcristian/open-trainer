@@ -1,3 +1,5 @@
+
+/*
 var term;
 window.addEventListener('load', function() {
     term = new Terminal({
@@ -20,12 +22,10 @@ window.addEventListener('load', function() {
 
     //term.write('\x1b[31mWelcome to term.js!\x1b[m\r\n');
 
-/*
     socket.on('data', function(data) {
       term.write(data);
     });
-*/
 
     //term.destroy();
 }, false);
-
+*/
